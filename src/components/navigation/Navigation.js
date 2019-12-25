@@ -61,7 +61,7 @@ class NavDropdown extends React.Component {
 
 function Navigation(props) {
   return (
-    <nav className="navbar navbar-expand-lg ">
+    <nav className="navbar navbar-expand">
       <a className="navbar-brand" href="/">
         <img src="images/DP.png" alt="DP logo" width="30px" height="auto"/>
       </a>
