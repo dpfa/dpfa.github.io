@@ -33,8 +33,8 @@ class NavDropdown extends React.Component {
     }));
   }
   render() {
-    const classDropdownMenu =
-      "dropdown-menu" + (this.state.isToggleOn ? " show" : "");
+    const classDropdownMenu = "dropdown-menu" + (this.state.isToggleOn ? " show" : "");
+    console.log('call nav')
     return (
       <li className="nav-item dropdown">
         <a
@@ -63,19 +63,8 @@ function Navigation(props) {
   return (
     <nav className="navbar navbar-expand">
       <a className="navbar-brand" href="/">
-        <img src="images/DP.png" alt="DP logo" width="30px" height="auto"/>
+        <img src="/images/DP.png" alt="DP logo" width="30px" height="auto"/>
       </a>
-      {/* <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button> */}
 
       <div className="navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
@@ -94,12 +83,6 @@ function Navigation(props) {
             </a>
           </NavDropdown>
           <NavItem path="/contact" name="Contact" />
-{/* 
-          <li className="nav-item">
-            <a className="nav-link disabled" href="/">
-              Disabled
-            </a>
-          </li> */}
         </ul>
       </div>
     </nav>

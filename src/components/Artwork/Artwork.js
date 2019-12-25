@@ -1,12 +1,14 @@
 import React from 'react'
 import './Artwork.scss'
 
-function Artwork({title, dims, height, width, medium, media, year, image }) {
-  console.log(title, dims, height, width, medium, media, year, image )
+function Artwork({data}) {
+  console.log(data)
+  let imgString = `/images/${data.image}`
   return (
-    <div className="artwork">
-      <img href={`${process.env.PUBLIC_URL}/images/IMG_2790.JPG`} alt={title} height="100" width="100"/>
-      <h4>{title}</h4>
+    <div className="col-6 artwork">
+      <img src={imgString}  alt={data.title} height="100" width="100"/>
+      <h6>{data.title}</h6>
+      <p>{data.medium} - ${data.price}</p>
     </div>
   );  
 }
