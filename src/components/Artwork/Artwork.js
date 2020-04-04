@@ -6,14 +6,18 @@ function Artwork({ data }) {
   let imgString = `/images/${data.image}`;
   let url = `${process.env.PUBLIC_URL}/images/${data.image}`;
   return (
-    <div className="col-6 artwork">
+    <div className="col-lg-6 col-sm-12 artwork">
       <a href={url}>
-        <img src={imgString} alt={data.title} height="100" width="100" />
+        <img src={imgString} alt={data.title} height="auto" width="100%" />
       </a>
       <h6>{data.title}</h6>
+      <i>
+        {data.medium}
+      </i>
       <p>
-        {data.medium} - ${data.price}
+        {data.price === 'SOLD' ? 'SOLD' : '$' + data.price}
       </p>
+      <hr/>
     </div>
   );
 }

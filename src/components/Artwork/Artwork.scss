@@ -1,5 +1,17 @@
 .content-title {
     text-decoration: underline;
+}
 
-    
+.artwork {
+    padding: 40px;
+    img {
+        padding: 20px;
+        margin: 20px 0px;
+    }
+    i {
+        color: gray;
+    }
+    p {
+        color: gray;
+    }
 }

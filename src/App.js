@@ -27,7 +27,7 @@ function App() {
           {/* <Route path='/artists' component={ArtistList}/> */}
           <Route exact path='/artists' render={props => <ArtistList {...props} data={data}></ArtistList>}/>
           <Route exact path="/artist/:id" component={Artist}/>
-          <Route path="/about" component={About} />
+          {/* <Route path="/about" component={About} /> */}
           <Route path="/contact" component={Contact} />
         </Switch>
         {/* </div> */}

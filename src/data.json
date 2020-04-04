@@ -1,137 +1,5 @@
 [
   {
-    "name": "Duke Sine",
-    "body": "Arizona",
-    "id": 1,
-    "artworks": [
-      {
-        "title": "Apache",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "pastel",
-        "image": "IMG_2807.JPG",
-        "price": "1200"
-      },
-      {
-        "title": "Apache",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "pastel",
-        "image": "IMG_2805.JPG",
-        "price": "1200"
-      },
-      {
-        "title": "Geronimo",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "colored pencil and graphite on paper",
-        "image": "IMG_2818.JPG"
-      },
-      {
-        "title": "Hawk and Rattlesnake",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "colored pencil on paper",
-        "image": "IMG_2809.JPG",
-        "price": "1800"
-      },
-      {
-        "title": "Buffalo and Eagle",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "graphite on paper",
-        "image": "IMG_2814.JPG",
-        "price": "2000"
-      },
-      {
-        "title": "Geronimo with Bandana",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "graphite on paper",
-        "image": "IMG_2821.JPG",
-        "price": "2000"
-      },
-      {
-        "title": "Apache",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "graphite on paper",
-        "image": "IMG_2823.JPG",
-        "price": "1800"
-      },
-      {
-        "title": "Apache",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "colored pencil on paper",
-        "image": "IMG_2815.JPG",
-        "price": "1500"
-      },
-      {
-        "title": "Apache",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "colored pencil on paper",
-        "image": "IMG_2819.JPG",
-        "price": "SOLD"
-      },
-      {
-        "title": "Apache",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "colored pencil on paper",
-        "image": "IMG_2812.JPG",
-        "price": "1200"
-      },
-      {
-        "title": "Apache",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "mixed media",
-        "image": "IMG_2808.JPG",
-        "price": "2200"
-      },
-      {
-        "title": "Apache",
-        "year": 1988,
-        "height": 0,
-        "width": 0,
-        "medium": "colored pencil on paper",
-        "image": "IMG_2824.JPG",
-        "price": "1500"
-      },
-      {
-        "title": "Apache Crown Dancers",
-        "year": 0,
-        "height": 0,
-        "width": 0,
-        "medium": "white paint on black paper- Set of 5",
-        "image": "IMG_2798.JPG",
-        "price": "2500"
-      },
-      {
-        "title": "Sacred Clown",
-        "year": 0,
-        "height": 0,
-        "width": 0,
-        "medium": "white paint on black paper- Set of 5",
-        "image": "IMG_2805.JPG",
-        "price": "2500"
-      }
-    ]
-  },
-  {
     "name": "Jim Stoker",
     "body": "New Mexico",
     "id": 2,
@@ -142,7 +10,7 @@
         "height": 50,
         "width": 60,
         "medium": "oil on canvas",
-        "image": "IMG_2790.JPG",
+        "image": "IMG_2790.jpg",
         "price": "9000"
       },
       {
@@ -151,7 +19,7 @@
         "height": 50,
         "width": 60,
         "medium": "oil on canvas",
-        "image": "IMG_2791.JPG",
+        "image": "IMG_2791.jpg",
         "price": "8000"
       },
       {
@@ -160,25 +28,134 @@
         "height": 24,
         "width": 30,
         "medium": "oil on canvas",
-        "image": "IMG_2794.JPG",
+        "image": "IMG_2794.jpg",
         "price": "5000"
       }
     ]
   },
   {
-    "name": "Francisco Bautista",
-    "body": "Huichol Artist",
-    "id": 3,
+    "name": "Duke Sine",
+    "body": "Arizona",
+    "id": 1,
     "artworks": [
       {
-        "title": "Huichol Yarn Painting",
+        "title": "Geronimo",
+        "year": 1988,
+        "height": 0,
+        "width": 0,
+        "medium": "colored pencil and graphite on paper",
+        "image": "IMG_2818.jpg",
+        "price": "2000"
+      },
+      {
+        "title": "When the Hunter becomes the Hunted",
+        "year": 1988,
+        "height": 0,
+        "width": 0,
+        "medium": "colored pencil on paper",
+        "image": "IMG_2809.jpg",
+        "price": "1800"
+      },
+      {
+        "title": "Buffalo and Eagle",
+        "year": 1988,
+        "height": 0,
+        "width": 0,
+        "medium": "graphite on paper",
+        "image": "IMG_2814.jpg",
+        "price": "2000"
+      },
+      {
+        "title": "Geronimo with Bandana",
+        "year": 1988,
+        "height": 0,
+        "width": 0,
+        "medium": "graphite on paper",
+        "image": "IMG_2821.jpg",
+        "price": "SOLD"
+      },
+      {
+        "title": "Geronimo",
+        "year": 1988,
+        "height": 0,
+        "width": 0,
+        "medium": "graphite on paper",
+        "image": "IMG_2823.jpg",
+        "price": "1800"
+      },
+      {
+        "title": "White Shell Woman",
+        "year": 1988,
+        "height": 0,
+        "width": 0,
+        "medium": "colored pencil on paper",
+        "image": "IMG_2815.jpg",
+        "price": "1500"
+      },
+      {
+        "title": "Untitled",
+        "year": 1988,
+        "height": 0,
+        "width": 0,
+        "medium": "colored pencil on paper",
+        "image": "IMG_2819.jpg",
+        "price": "SOLD"
+      },
+      {
+        "title": "Small Basket",
+        "year": 1988,
+        "height": 0,
+        "width": 0,
+        "medium": "colored pencil on paper",
+        "image": "IMG_2812.jpg",
+        "price": "1200"
+      },
+      {
+        "title": "Crown Dancers - Mixed Media",
+        "year": 1988,
+        "height": 0,
+        "width": 0,
+        "medium": "mixed media",
+        "image": "IMG_2808.jpg",
+        "price": "2200"
+      },
+      {
+        "title": "White Shell Woman w/ Mesquite Root Cane",
+        "year": 1988,
+        "height": 0,
+        "width": 0,
+        "medium": "colored pencil on paper",
+        "image": "IMG_2824.jpg",
+        "price": "1500"
+      },
+      {
+        "title": "Apache Crown Dancers",
         "year": 0,
-        "height": 31.5,
-        "width": 25,
-        "medium": "Yarn",
-        "image": "IMG_2796.JPG",
-        "price": "7500"
+        "height": 0,
+        "width": 0,
+        "medium": "white paint on black paper",
+        "image": "IMG_2798.jpg",
+        "price": "2500 Set of 5 (1 of 5)"
+      },
+      {
+        "title": "Apache Crown Dancer",
+        "year": 1988,
+        "height": 0,
+        "width": 0,
+        "medium": "white paint on black paper",
+        "image": "IMG_2807.jpg",
+        "price": "2500"
+      },
+      {
+        "title": "Chief Joseph",
+        "year": 0,
+        "height": 0,
+        "width": 0,
+        "medium": "white paint on black paper- Set of 5",
+        "image": "IMG_2805.jpg",
+        "price": "2500"
       }
     ]
   }
+  
 ]

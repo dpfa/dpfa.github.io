@@ -70,8 +70,9 @@ function Navigation(props) {
         <ul className="navbar-nav mr-auto">
           
           {/* <NavItem path="/" name="Home" /> */}
-          <NavItem path="/about" name="About" />
-          <NavDropdown name="Artists">
+          {/* <NavItem path="/about" name="About" /> */}
+          <NavItem path="/artists" name="Artists" />
+          {/* <NavDropdown name="Artists">
             <a className="dropdown-item" href="/Artist1">
               Artist 1
             </a>
@@ -81,7 +82,7 @@ function Navigation(props) {
             <a className="dropdown-item" href="/Artist3">
               Artist 3
             </a>
-          </NavDropdown>
+          </NavDropdown> */}
           <NavItem path="/contact" name="Contact" />
         </ul>
       </div>
